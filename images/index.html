@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filterable Image Gallery | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<body>
+
+  <div class="wrapper ">
+
+    <!-- filter Items -->
+    <nav class="navbar navbar-expand-xlg ">  
+      <div class="items container-fluid-sm">
+        <div class="container text-center">
+          <button type="button" class="btn btn-outline-primary   px-4 btn-md item active" data-name="all">All</button>
+          <button type="button" class="btn btn-outline-primary   px-4 btn-md item active" data-name="shoe">Shoe</button >
+          <button type="button" class="btn btn-outline-primary   px-4 btn-md item active" data-name="watch">Watch</button >
+          <button type="button" class="btn btn-outline-primary   px-4 btn-md item active" data-name="camera">Camera</button>
+          <button type="button"  class="btn btn-outline-primary  px-4 btn-md md-mt-2 btn-sm-center item active" data-name="headphone">Headphone</button >
+      </div>  
+      </div>
+    </nav>
+    <!-- filter Images -->
+    <div class="gallery container-fluid ">
+      <div class="image card p-3 w3-mobile" data-name="bag"><span><img src="images/bag-1.jpg" alt=""></span></div>
+      <div class="image card p-3 w3-mobile" data-name="headphone"><span><img src="images/headphone-1.jpg" alt=""></span></div>
+      <div class="image card p-3 w3-mobile" data-name="camera"><span><img src="images/camera-1.jpg" alt=""></span></div>
+      <div class="image card p-3 w3-mobile" data-name="shoe"><span><img src="images/shoe-1.jpg" alt=""></span></div>
+      <div class="image card p-3 w3-mobile" data-name="headphone"><span><img src="images/headphone-2.jpg" alt=""></span></div>
+      <div class="image card p-3 w3-mobile" data-name="watch"><span><img src="images/watch-1.jpg" alt=""></span></div>
+      <div class="image card p-3 w3-mobile" data-name="shoe"><span><img src="images/shoe-2.jpg" alt=""></span></div>
+      <div class="image card p-3 w3-mobile" data-name="camera"><span><img src="images/camera-2.jpg" alt=""></span></div>
+    </div>
+  </div>
+  <!-- fullscreen img preview box -->
+  <div class="preview-box">
+    <div class="details">
+      <span class="title">Image Category: <p></p></span>
+      <span class="icon fas fa-times" style="font-size: 10px;"></span>
+    </div>
+    <div class="image-box"><img src="" alt=""></div>
+  </div>
+  <div class="shadow"></div>
+
+  <script src="script.js"></script>
+    <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
